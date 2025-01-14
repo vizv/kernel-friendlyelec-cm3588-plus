@@ -129,11 +129,7 @@
 #	define XZ_DEC_POWERPC
 #endif
 #ifdef CONFIG_ARM
-#	ifdef CONFIG_THUMB2_KERNEL
-#		define XZ_DEC_ARMTHUMB
-#	else
-#		define XZ_DEC_ARM
-#	endif
+#	define XZ_DEC_ARM
 #endif
 #ifdef CONFIG_IA64
 #	define XZ_DEC_IA64
